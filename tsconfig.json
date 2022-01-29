@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+      "typeRoots": ["./@types", "./node_modules/@types"],
+        "outDir": "./dist",
+        "rootDir": "./",
+        "strict": true,
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "target": "es6",
+      "noImplicitAny": true,
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "experimentalDecorators": true,
+      "strictPropertyInitialization": false,
+      "emitDecoratorMetadata": true,
+
+    //   "outDir": "dist",
+      "baseUrl": ".",
+      "paths": {
+        "*": [
+          "node_modules/*",
+          "*"
+        ]
+      }
+    },
+    "include": [
+      "*"
+, "entities/UserEntity.ts"    ],
+    "files": ["./@types/module.d.ts"],
+    
+  }
